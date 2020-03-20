@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/style.css">
         <title>STRICT</title>
+        <link href="images/favicon.png" rel="icon">
     </head>
     <body>
         <!-- navbar section start -->
@@ -21,7 +22,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="#"><img class="img-fluid w-100" src="images/logo.png" alt="strict-logo" title="strict-logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="toggle-button"><i class="fas fa-bars"></i></span>
                     </button>
                   
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,10 +60,13 @@
         <!-- header section end -->
 
         <!-- about section start -->
+        
         <section class="about">
-            <div class="about-content">
-                <h2>Simple & pure design.</h2>
-                <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of web design round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+            <div class="container">
+                <div class="about-content">
+                    <h2>Simple & pure design.</h2>
+                    <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of web design round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+                </div>
             </div>
         </section>
         <!-- about section end -->        
@@ -153,6 +157,65 @@
             </div>
         </section>
         <!-- showcase section end -->
+        
+        <!-- form section start -->
+        <section class="form">
+            <div class="form-section">
+                <div class="container">
+                    <h2 class="text-center">Stay with us</h2>
+                    <p class="text-center">We ensure quality & support</p>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <form action="GET">
+                                <div class="form-group">
+                                    <input type="text" class="form-control bg-transparent" id="username" placeholder="Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control bg-transparent" id="email" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control bg-transparent" id="message" placeholder="Message" rows="6"></textarea>
+                                </div>
+                                <ul class="nav justify-content-between">
+                                    <li>
+                                        <input type="checkbox" class="bg-transparent" name="" id="checkbox">
+                                        <label for="checkbox" class="text-white pt-1">Subscribe Newsletter</label>
+                                    </li>
+                                    <li>
+                                        <input type="submit" value="Send" class="btn form-send">
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form section end -->
+
+        <!-- footer section start -->
+        <footer>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <div class="footer-content">
+                            <p>Copyright 2014, STRICT</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <div class="footer-social-icon">
+                            <ul class="nav justify-content-end">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end -->
 
         <!-- Optional JavaScript start-->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
